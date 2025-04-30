@@ -9,7 +9,7 @@
   window#waybar {
       background: rgba(43, 48, 59, 0.5);
       color: white;
-      padding: 10px 10px;
+      padding: 5px 5px;
   }
 
   tooltip {
@@ -26,7 +26,7 @@
       background: #000000;
       color: white;
       border-bottom: 3px solid transparent;
-      padding: 10px 10px;
+      padding: 5px 5px;
   }
 
   #workspaces button.focused {
@@ -42,41 +42,41 @@
   #pulseaudio,
   #backligt,
   #battery {
-      padding: 10px 10px;
+      padding: 5px 5px;
   }
 
   #clock {
       background-color: #64727D;
-      padding: 10px 10px;
+      padding: 5px 5px;
   }
 
   #pulseaudio {
       background-color: #434e57;
-      padding: 10px 10px;
+      padding: 5px 5px;
       border-left: 0px;
       border-right: 0px;
   }
 
   #backlight {
       background-color: #64727D;
-      padding: 10px 10px;
+      padding: 5px 5px;
   }
 
   #power-profiles-daemon {
       background-color: #434e57;
-      padding: 10px 10px;
+      padding: 5px 5px;
   }
 
   #battery {
       background-color: #ffffff;
       color: black;
-      padding: 10px 10px;
+      padding: 5px 5px;
   }
 
   #battery.charging {
       color: white;
       background-color: #26A65B;
-      padding: 10px 10px;
+      padding: 5px 5px;
   }
 
   @keyframes blink {
@@ -100,5 +100,5 @@
       margin-left: 120px;
       margin-right: 120px;
       background-color: #64727D;
-      padding: 10px 10px;
+      padding: 5px 5px;
   }
