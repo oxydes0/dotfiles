@@ -44,30 +44,30 @@
         "format-icons": {
             "default": "",
             "performance": "",
-            "balanced": " ",
-            "power-saver": " "
+            "balanced": "",
+            "power-saver": ""
         }
     },
     "pulseaudio": {
         "format": "{icon}  {volume}%",
         "tooltip": false,
-        "format-muted": "  Muted",
+        "format-muted": " Muted",
         "on-click": "pamixer -t",
         "on-scroll-up": "pamixer -i 1",
         "on-scroll-down": "pamixer -d 1",
         "scroll-step": 5,
         "format-icons": {
-            "headphone": " ",
-            "hands-free": " ",
-            "headset": " ",
-            "phone": " ",
-            "portable": " ",
-            "car": " ",
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
             "default": [
-                " ",
-                " ",
-                " ",
-                " "
+                "",
+                "",
+                "",
+                ""
             ]
         }
     },
