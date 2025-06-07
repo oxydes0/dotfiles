@@ -1,7 +1,7 @@
   * {
       border: none;
       border-radius: 0;
-      font-family: "Symbols Nerd Font", "LXGW WenKai";
+      font-family: "Symbols Nerd Font", "JetBrainsMono Nerd Font";
       font-size: 14px;
       min-height: 0;
   }
@@ -35,8 +35,8 @@
   }
 
   #workspaces button.active {
-      background: #dfdda4;
-      color: #000000;
+      background: #b07625;
+      color: #ffffff;
   }
 
   #pulseaudio,
@@ -68,8 +68,8 @@
   }
 
   #battery {
-      background-color: #ffffff;
-      color: black;
+      background-color: #b07625;
+      color: #ffffff;
       padding: 5px 5px;
   }
 
@@ -87,7 +87,7 @@
   }
 
   #battery.warning:not(.charging) {
-      background: #f53c3c;
+      background: #b07625;
       color: white;
       animation-name: blink;
       animation-duration: 0.5s;
