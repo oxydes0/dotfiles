@@ -1,16 +1,21 @@
   * {
-      border: none;
-      border-radius: 0;
+      border: 1;
+      border-radius: 8;
       font-family: "Symbols Nerd Font", "JetBrainsMono Nerd Font";
       font-size: 14px;
       min-height: 0;
+      margin: 0.1 2px;
   }
 
   window#waybar {
-      background: rgba(43, 48, 59, 0.5);
+      background: rgba(0, 0, 0, 0.5);
       color: white;
       padding: 5px 5px;
+      border-radius: 0;
   }
+
+/* transparent bg rgba(43, 48, 59, 0.5) */
+  
 
   tooltip {
       background: rgba(43, 48, 59, 0.5);
@@ -23,7 +28,7 @@
 
   #workspaces button {
       padding: 0 5px;
-      background: #000000;
+      background: rgba(0, 0, 0, 0.5);
       color: white;
       border-bottom: 3px solid transparent;
       padding: 5px 5px;
@@ -35,7 +40,7 @@
   }
 
   #workspaces button.active {
-      background: #b07625;
+      background: #0f6ba8;
       color: #ffffff;
   }
 
@@ -46,59 +51,40 @@
   }
 
   #clock {
-      background-color: #64727D;
+      background-color: rgba(0, 0, 0, 0.5);
       padding: 5px 5px;
   }
 
   #pulseaudio {
-      background-color: #434e57;
+      background-color: rgba(0, 0, 0, 0.5);
       padding: 5px 5px;
       border-left: 0px;
       border-right: 0px;
   }
 
   #backlight {
-      background-color: #64727D;
-      padding: 5px 5px;
-  }
-
-  #power-profiles-daemon {
-      background-color: #434e57;
+      background-color: rgba(0, 0, 0, 0.5);
       padding: 5px 5px;
   }
 
   #battery {
-      background-color: #b07625;
+      background-color: rgba(0, 0, 0, 0.5);
       color: #ffffff;
       padding: 5px 5px;
   }
 
-  #battery.charging {
-      color: white;
-      background-color: #26A65B;
-      padding: 5px 5px;
-  }
-
+/*
   @keyframes blink {
       to {
           background-color: #ffffff;
           color: black;
       }
   }
-
-  #battery.warning:not(.charging) {
-      background: #b07625;
-      color: white;
-      animation-name: blink;
-      animation-duration: 0.5s;
-      animation-timing-function: steps(12);
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
-  }
+*/
 
   #window {
       margin-left: 120px;
       margin-right: 120px;
-      background-color: #64727D;
+      background-color: rgba(0, 0, 0, 0.5);
       padding: 5px 5px;
   }
